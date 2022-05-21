@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+}
+
+.top-nav {
+    background-color: mintcream;
+    overflow:hidden;
+}
+.logo {
+    position: absolute;
+    margin-top: 7px;
+}
+
+.top-nav a {
+    width: 200px;
+    display: block;
+    padding: 20px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: salmon;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.top-nav a:hover {
+    background: lightpink;
+    transition: 0.5s;
+}
+
+.top-nav li {
+    list-style: none;
+}
+* {
+    margin: 0;
+}
+.hero-img{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.hero-wrapper{
+    position: relative;
+}
+
+.hero-title{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    color: brown;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    text-decoration: underline;
+    animation: text 3s;
+}
+
+@keyframes text {
+    0%{
+        color: goldenrod;
+        letter-spacing: 4px;
+        }
+}
+
+.quote{
+    font-size: 27px;
+    color: lightsalmon;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.large-img{
+    width: 50%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.img-wrapper{
+    font-size: 0;
+}
+
+.medium-img{
+    width: 34%;
+    object-fit: cover;
+}
+
+.medium-img{
+    width: 33%;
+    object-fit: cover;
+}
+
+.medium-img{
+    width: 33%;
+    object-fit: cover;
+}
+
+.medium-img-1{
+    width: 33%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.medium-img-2{
+    width: 34%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.medium-img-3{
+    width: 33%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.moments {
+    color: brown;
+    text-align: center;
+    font-size: 14px;
+}
+.profile img {
+    margin-left: 600px;
+}
+
+.social-media-1 {
+    color: plum;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 2;  
+}
+
+.social-media-1:hover {
+    color: purple;
+}
+
+.social-media-2 {
+    color: lightblue;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 2;
+}
+
+.social-media-2:hover {
+    color: aqua;
+}
+
+.social-media-3 {
+    color: aqua;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 2;
+}
+.social-media-3:hover {
+    color: blue;
+}
+
+.copyright_footer{
+    position: relative;
+    color: brown;
+    bottom: 1px;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+    background-color: whitesmoke;
+    left: 0;
+}
+.about {
+    font-size: 20 px;
+    color: brown;
+    font-style: italic;
+    text-align: center;
+    line-height: 3;
+}
+
+.about h1 {
+    animation: text 3s 1;
+}
+@keyframes typing {
+    0%{
+        color: rebeccapurple;
+        margin-bottom: -40px;
+    }
+}
+.portfolio {
+    font-size: 14px;
+    color: darkolivegreen;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 1px;
+    line-height: 30px;
+    background-color: whitesmoke;
+}
+.services {
+    font-size: x-large;
+    color: brown;
+    text-align: center;
+    line-height: 3;
+    background-color: whitesmoke;
+}
+.clienttestimony {
+    font-size: larger;
+    color: brown;
+    line-height: 3;
+    background-color: whitesmoke;
+}
+.contactus {
+    line-height: 4;
+    color: brown;
+    font-size: x-large;
+}
+@media screen and (min-width: 200px) and (max-width: 492px) {
+       .logo {
+           padding: .15em;
+        }
+       .top-nav {
+           font-size: 1.3m;
+           width: 80%;
+           margin: 0 auto;
+       }
+
+       .top-nav ul {
+           margin: 0;
+           padding: .1em;
+       }
+
+       .top-nav :link {
+           background-color: lightgray;
+           border-radius: 1em;
+           list-style-type: none;
+           width: 80%;
+           margin-bottom: 1em;
+           text-align: center;
+       }
+.top-nav a {
+    padding: 2em;
+    display: inline-block;
+    width: 80%;
+ }
+}
+@media screen and (min-width: 493px) and (max-width: 710px) {
+    .logo {
+        padding: .6em;
+        align-content: center;
+    }
+.top-nav {
+    background-color: lightblue;
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+ }
+
+.top-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav link {
+    display: inline;
+ }
+.top-nav a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
